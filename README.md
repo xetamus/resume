@@ -8,6 +8,7 @@ The theme is a custom one that can be found here: [xetamus/json-theme-xetamus](h
 The resume has been built using the [hackmyresume](https://github.com/hacksalot/HackMyResume) tool.
 
 ```
+# npm install handlebars
 # hackmyresume BUILD resume.json TO out/resume.all -t jsonresume-theme-xetamus
 
 *** HackMyResume v1.9.0 ***

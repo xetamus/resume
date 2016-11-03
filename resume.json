@@ -6,7 +6,7 @@
     "email": "shishamin@gmail.com",
     "phone": "(919) 889 6225",
     "website": "http://shishiramin.com",
-    "summary": "A summary of John Doe...",
+    "summary": "",
     "location": {
       "city": "RTP",
       "countryCode": "US",
@@ -126,13 +126,7 @@
       "C/C++"
     ]
   }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
+  "interests": [{}],
   "references": [{
     "name": "Steven Gonzales",
     "reference": "Reference..."
