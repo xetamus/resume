@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Shishir Amin",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "shishamin@gmail.com",
+    "phone": "(919) 889 6225",
+    "website": "http://shishiramin.com",
+    "summary": "A summary of John Doe...",
+    "location": {
+      "city": "RTP",
+      "countryCode": "US",
+      "region": "NC"
+    },
+    "profiles": [
+      {
+         "network": "linkedin",
+         "url": "https://linkedin.com/in/shishiramin"
+      },
+      {
+         "network": "github",
+         "url": "https://github.com/xetamus"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Virtustream (Formerly EMC Cloud Services/Rubicon)",
+      "position": "Senior Software Engineer",
+      "startDate": "Apr 2015",
+      "endDate": "Nov 2016",
+      "highlights": [
+        "Deployed, configued and supported Openstack clouds as well as mission critical organizational shared services including package repositories and CICD software",
+        "Set up Openstack rally benchmarking to collect benchmarks and run tests against deployed clouds to help identify and fix performance issues and bugs",
+        "Created Salt formulas to help keep server configurations consistent and more easily manage infrastructure",
+        "Wrote salt modules where necessary to extend SaltStack functionality for cloud platforms",
+        "Used openstack-ansible to deploy and re-deploy openstack clouds",
+        "Used ansible to deploy and maintain cloud and customer tenant information as code",
+        "Managed CICD infrastructure (TeamCity) and evangalized best practices along with assisting other developers when the need arose",
+        "Worked on-call rotations to handle both production and development issues that occured in a timely manner",
+        "Created documenation for on-call remediations, which allowed others on-call to easily resolve issues more quickly, leading to less downtime of our services"
+      ]
+    },
+    {
+      "company": "Deutsche Bank",
+      "position": "Associate Software Engineer",
+      "startDate": "Sep 2014",
+      "endDate": "Apr 2015",
+      "highlights": [
+        "Added features to improve customer experience and increased stability through bug fix for an internal Java shared hosting platform.",
+        "Worked on an internal shared hosting service written in Perl",
+        "Delivered enhancements, fixed bugs and refactored legacy code",
+        "Agile software development using JIRA as a project management tool and SVN as version control",
+        "Focused heavily on increasing unit testing coverage",
+        "Provided escalation support for issues running in production",
+        "Cross-team collaboration with other shared services, customers of the product and other development groups within the bank"
+      ]
+    },
+    {
+      "company": "EMC",
+      "position": "Software Engineer",
+      "startDate": "Jan 2012",
+      "endDate": "Sep 2014",
+      "highlights": [
+        "Developed virtual hardware environments (as VMWare VMs) of EMC Midrange storage platforms which helped reduce hardware costs for development.",
+        "Performed development and system administration roles",
+        "Created automated tooling around virtual machine deployment and configuration (using VMWare Perl APIs)",
+        "Cross-collaborated across development teams as multiple components of the stack had to be sometimes be altered for the virtual environments",
+        "Wrote C/C++ code as well as Bash and Perl scripts"
+      ]
+    },
+    {
+      "company": "EMC",
+      "position": "College Intern",
+      "startDate": "May 2009",
+      "endDate": "Jan 2012",
+      "highlights": [
+        "Assisted with the Midrange NAS development team with their responsibilities and helped to manage our lab hardware.",
+        "Helped test developer code by installing builds and running test suites",
+        "Helped to debug issues with broken systems, or reinstall them if necessary",
+        "Got my feet wet fixing some simple bugs in the software",
+        "Revamped our lab hardware tracking website"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "North Carolina State University",
+      "area": "Computer Engineering",
+      "studyType": "BS",
+      "startDate": "Aug 2007",
+      "endDate": "Dec 2011"
+    },
+    {
+      "institution": "North Carolina State University",
+      "area": "Electrical Engineering",
+      "studyType": "BS",
+      "startDate": "Aug 2007",
+      "endDate": "Dec 2011"
+    }
+  ],
+  "skills": [{
+    "name": "Dev",
+    "keywords": [
+      "Linux",
+      "Openstack",
+      "Docker",
+      "Linux Containers",
+      "Ubuntu",
+      "Debian",
+      "Salt",
+      "Ansible",
+      "Python",
+      "Jinja",
+      "Ceph",
+      "TeamCity",
+      "Git/GitHub",
+      "CICD",
+      "Config Management",
+      "Vagrant",
+      "Vitualbox",
+      "Jenkins",
+      "VMWare",
+      "Perl",
+      "Bash",
+      "C/C++"
+    ]
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Steven Gonzales",
+    "reference": "Reference..."
+  }]
+}

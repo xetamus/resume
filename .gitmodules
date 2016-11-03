@@ -1,0 +1,3 @@
+[submodule "jsonresume-theme-xetamus"]
+	path = jsonresume-theme-xetamus
+	url = https://github.com/xetamus/jsonresume-theme-boilerplate
