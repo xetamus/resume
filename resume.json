@@ -6,7 +6,7 @@
     "email": "shishamin@gmail.com",
     "phone": "(919) 889 6225",
     "website": "http://shishiramin.com",
-    "summary": "",
+    "summary": "Pragmatist. DevOps, automation and CICD enthusiast. Lifelong learner and personable team player. Flexible and always willing to dig in and solve new problems.",
     "location": {
       "city": "RTP",
       "countryCode": "US",
@@ -25,19 +25,20 @@
   },
   "work": [
     {
-      "company": "Virtustream (Formerly EMC Cloud Services/Rubicon)",
+      "company": "EMC Cloud Services (now Virtustream)",
       "position": "Senior Software Engineer",
       "startDate": "Apr 2015",
       "endDate": "Nov 2016",
       "highlights": [
-        "Deployed, configued and supported Openstack clouds as well as mission critical organizational shared services including package repositories and CICD software",
-        "Set up Openstack rally benchmarking to collect benchmarks and run tests against deployed clouds to help identify and fix performance issues and bugs",
-        "Created Salt formulas to help keep server configurations consistent and more easily manage infrastructure",
-        "Wrote salt modules where necessary to extend SaltStack functionality for cloud platforms",
-        "Used openstack-ansible to deploy and re-deploy openstack clouds",
+        "Deployed, configued and supported OpenStack clouds as well as mission critical organizational shared services including package repositories and CICD software",
+        "Set up Rally (OpenStack) to collect benchmarks and run tests against deployed clouds to help identify and fix performance issues and bugs",
+        "Created Salt formulas to keep server configurations consistent and more easily manage infrastructure",
+        "Wrote Salt modules where necessary to extend SaltStack functionality for cloud platforms",
+        "Used openstack-ansible to deploy and re-deploy OpenStack clouds",
         "Used ansible to deploy and maintain cloud and customer tenant information as code",
-        "Managed CICD infrastructure (TeamCity) and evangalized best practices along with assisting other developers when the need arose",
-        "Worked on-call rotations to handle both production and development issues that occured in a timely manner",
+        "Managed CICD infrastructure (TeamCity) and evangalized best practices ",
+        "Assisted other developers with CICD pipelines and shared services when the need arose",
+        "Worked on-call rotations to quickly handle both production and development issues",
         "Created documenation for on-call remediations, which allowed others on-call to easily resolve issues more quickly, leading to less downtime of our services"
       ]
     },
@@ -103,12 +104,12 @@
     "name": "Dev",
     "keywords": [
       "Linux",
-      "Openstack",
+      "OpenStack",
       "Docker",
       "Linux Containers",
       "Ubuntu",
       "Debian",
-      "Salt",
+      "SaltStack",
       "Ansible",
       "Python",
       "Jinja",
@@ -123,7 +124,11 @@
       "VMWare",
       "Perl",
       "Bash",
-      "C/C++"
+      "C/C++",
+      "openstack-ansible",
+      "ceph-ansible",
+      "Agile",
+      "Jira"
     ]
   }],
   "interests": [{}],
