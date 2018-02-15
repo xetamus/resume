@@ -25,6 +25,18 @@
   },
   "work": [
     {
+      "company": "Pivotal",
+      "position": "Senior Solutions Architect/Platform Reliability Engineer",
+      "startDate": "Jan 2017",
+      "endDate": "-",
+      "highlights": [
+        "Help customers learn to run and operate their Pivotal Cloud Foundry(PCF) environments",
+        "Troubleshoot networking,IaaS,platform,etc.. issues that arise during installation/operation of PCF",
+        "Deploy PCF both manually and through automated concourse pipelines",
+        "Create and alter concourse pipelines to eliminate operator toil for PCF"
+      ]
+    },
+    {
       "company": "EMC Cloud Services (now Virtustream)",
       "position": "Senior Software Engineer",
       "startDate": "Apr 2015",
@@ -103,8 +115,14 @@
   "skills": [{
     "name": "Dev",
     "keywords": [
+      "Pivotal Cloud Foundry",
+      "bosh",
+      "concourse",
+      "yaml/json",
       "Linux",
       "OpenStack",
+      "AWS",
+      "GCP",
       "Docker",
       "Linux Containers",
       "Ubuntu",
@@ -115,7 +133,7 @@
       "Jinja",
       "Ceph",
       "TeamCity",
-      "Git/GitHub",
+      "Git",
       "CICD",
       "Config Management",
       "Vagrant",
@@ -132,8 +150,4 @@
     ]
   }],
   "interests": [{}],
-  "references": [{
-    "name": "Steven Gonzales",
-    "reference": "Reference..."
-  }]
 }
