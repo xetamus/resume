@@ -1,0 +1,22 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: alpine
+
+inputs:
+  - name: resume-git
+  - name: resume
+outputs:
+  - name: app-manifest
+
+run:
+  path: resume-git/ci/tasks/generate-app-manifest/task.sh
+
+params:
+  APP_NAME:
+  APP_ROUTE:
+  APP_MEMORY:
+  APP_INSTANCES:

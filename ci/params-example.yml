@@ -1,0 +1,8 @@
+cf_username:
+cf_password:
+cf_org:
+cf_space: 
+app_name: shishir-resume
+app_route: resume.shishiramin.com
+app_memory: 128MB
+app_instances: 1
