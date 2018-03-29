@@ -8,7 +8,6 @@ image_resource:
 
 inputs:
   - name: resume-git
-  - name: resume
 outputs:
   - name: app-manifest
 
