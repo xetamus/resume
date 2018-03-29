@@ -2,7 +2,9 @@
 
 set -eu
 
-touch resume/Staticfile
+cat <<EOF > resume/Staticfile
+root: resume
+EOF
 
 cat <<EOF > app-manifest/manifest.yml
 ---
@@ -13,5 +15,4 @@ applications:
     memory: $APP_MEMORY
     instances: $APP_INSTANCES
     buildpack: staticfile_buildpack
-    root: resume
 EOF
