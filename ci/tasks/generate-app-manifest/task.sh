@@ -12,6 +12,6 @@ applications:
       - route: $APP_ROUTE
     memory: $APP_MEMORY
     instances: $APP_INSTANCES
-    buildpack: static
+    buildpack: staticfile_buildpack
     root: resume
 EOF
