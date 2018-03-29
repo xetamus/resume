@@ -18,5 +18,5 @@ run:
     - resume-git/resume.json
     - TO
     - resume/index.html
-    #- -t
-    #- resume-git/jsonresume-theme-xetamus
+    - -t
+    - resume-git/jsonresume-theme-xetamus
