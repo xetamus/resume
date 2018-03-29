@@ -28,7 +28,6 @@
       "company": "Pivotal",
       "position": "Senior Solutions Architect/Platform Reliability Engineer",
       "startDate": "Jan 2017",
-      "endDate": "-",
       "highlights": [
         "Help customers learn to run and operate their Pivotal Cloud Foundry(PCF) environments",
         "Troubleshoot networking,IaaS,platform,etc.. issues that arise during installation/operation of PCF",
@@ -149,5 +148,5 @@
       "Jira"
     ]
   }],
-  "interests": [{}],
+  "interests": [{}]
 }
