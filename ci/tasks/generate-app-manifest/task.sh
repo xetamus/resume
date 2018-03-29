@@ -2,7 +2,7 @@
 
 set -eu
 
-cat <<EOF > resume/Staticfile
+cat <<EOF > Staticfile
 root: resume
 EOF
 
