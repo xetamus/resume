@@ -11,5 +11,5 @@ applications:
     memory: $APP_MEMORY
     instances: $APP_INSTANCES
     buildpack: staticfile_buildpack
-    path: resume
+    path: ../resume
 EOF
