@@ -24,7 +24,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Generate the resume
-      uses: xetamus/hackmyresume-action
+      uses: xetamus/hackmyresume-action@v1
       with:
         theme-folder: jsonresume-theme-xetamus 
     
