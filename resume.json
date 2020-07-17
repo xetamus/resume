@@ -25,6 +25,12 @@
   },
   "work": [
     {
+      "company": "VMware",
+      "position": "Senior Solutions Architect",
+      "startDate": "Jan 2020",
+      "highlights": []
+    },
+    {
       "company": "Pivotal",
       "position": "Senior Solutions Architect/Platform Reliability Engineer",
       "startDate": "Jan 2017",
