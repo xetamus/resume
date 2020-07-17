@@ -15,7 +15,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: xetamus/docker-hackmyresume
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -23,11 +23,13 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: hackmyresume BUILD resume-git/resume.json TO resume/index.html -t resume-git/jsonresume-theme-xetamus
+    - name: Generate the resume
+      uses: xetamus/hackmyresume-action
+      with:
+        theme-folder: jsonresume-theme-xetamus 
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.TOKEN }}
         publish_dir: ./resume
