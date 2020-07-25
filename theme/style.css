@@ -1,0 +1,39 @@
+.tags .tag {
+    margin: 3px;
+    background: #FFBF1C;
+    color: #175A85;
+    box-shadow: none;
+    font-weight: bold
+}
+
+.stepper {
+    color: white
+}
+
+.stepper .step .step-number {
+    background: #FFBF1C;
+    height: 20px;
+    width: 20px;
+    left: -10px;
+    box-shadow: none
+}
+
+.stepper .step .step-title {
+    color: #FFBF1C;
+    line-height: 25px
+}
+
+.stepper .step:last-of-type {
+    border-left: 1px solid #bdbdbd
+}
+
+.card {
+    align-items: center;
+    text-align: center;
+    background: #175A85;
+    color: #FFBF1C
+}
+
+.sidebar-category {
+    color: #FFBF1C
+}

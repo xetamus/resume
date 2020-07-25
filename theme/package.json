@@ -1,0 +1,14 @@
+{
+  "name": "jsonresume-theme-xetamus",
+  "version": "0.1.2",
+  "description": "Boilerplate theme for JSON Resume",
+  "author": "xetamus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xetamus/jsonresume-theme-xetamus"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  }
+}

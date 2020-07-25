@@ -15,11 +15,13 @@
     "profiles": [
       {
          "network": "linkedin",
-         "url": "https://linkedin.com/in/shishiramin"
+         "url": "https://linkedin.com/in/shishiramin",
+         "username": "shishiramin"
       },
       {
          "network": "github",
-         "url": "https://github.com/xetamus"
+         "url": "https://github.com/xetamus",
+         "username": "xetamus"
       }
     ]
   },
@@ -154,5 +156,6 @@
       "Jira"
     ]
   }],
-  "interests": [{}]
+  "interests": [{}],
+  "certifications": ["CKA", "CKAD"]
 }

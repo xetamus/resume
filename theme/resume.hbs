@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+    
+  <link rel="stylesheet" href="https://unpkg.com/mustard-ui@1.0.4/dist/css/mustard-ui.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <style>
+  {{css}}
+  </style>
+
+</head>
+    
+<body>
+  <div class="row"  style="margin:0px">
+    
+    <div class="col col-lg-3" style="background: #F1B626">
+
+      <div class="section">
+
+          <div class="card">
+
+            <img class="align-left" src="shishir.png" style="max-width: 100%;">
+
+            <div class="container" style="padding: 0px; margin: 0px;">
+              <div class="section">
+                {{#resume.basics}}
+                <h3 class="sidebar-category"> {{name}} </h3>
+                <i class="fas fa-envelope-square"></i> {{email}}
+                <br/>
+                <i class="fas fa-mobile"></i> {{phone}}
+                {{#profiles}}
+                <br/>
+                <a href="{{url}}" style="color: #FFBF1C">
+                    <i class="fab fa-{{network}}"></i> {{username}}
+                </a>
+                {{/profiles}}
+
+                <h3 class="sidebar-category"></h3>
+
+                <p style="color: white">
+                  {{summary}}
+                </p>
+                {{/resume.basics}}
+              </div>
+            </div>
+
+          </div>
+
+      </div> 
+
+    </div>
+
+    <div class="col col-lg-9" style="background: #175A85">
+
+      <div class="container-large">
+        <div class="section" style="margin-top: 20px">
+          <h3 class="sidebar-category"> Skills </h3>
+          <p>
+            <ul class="tags">
+              {{#each resume.skills}}
+              {{#keywords}}
+              <li class="tag">{{.}}</li>
+              {{/keywords}}
+              {{/each}}
+            </ul>
+          </p>
+
+          <h3 class="sidebar-category"> Certifications </h3>
+          <p>
+            <ul class="tags">
+              {{#each resume.certifications}}
+              <li class="tag">{{.}}</li>
+              {{/each}}
+            </ul>
+          </p>
+
+          <h3 class="sidebar-category"> Experience </h3>
+          <p>
+            <div class="stepper">
+            {{#each resume.work}}
+              <div class="step">
+                <p class="step-number"></p>
+                <p class="step-title">{{company}}</p>
+                <p style="color:#FFBF1C">
+                  {{position}}
+                  <br/>
+                  {{startDate}} - {{endDate}}
+                  <br/>
+                  <ul>
+                    {{#highlights}}
+                    <li>{{.}}</li>
+                    {{/highlights}}
+                  </ul>
+                </p>
+              </div>
+            {{/each}}
+            </div>
+          </p>
+
+          <h3 class="sidebar-category"> Education </h3>
+          <p>
+            <div class="stepper">
+            {{#each resume.education}}
+              <div class="step">
+                <p class="step-number"></p>
+                <p class="step-title">{{institution}}</p>
+                <p>
+                  {{studyType}}, {{area}}
+                  <br/>
+                  {{endDate}}
+                </p>
+              </div>
+            {{/each}}
+            </div>
+          </p>
+        </div>
+  
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>

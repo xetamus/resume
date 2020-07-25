@@ -28,7 +28,7 @@ jobs:
     - name: Generate the resume
       uses: xetamus/hackmyresume-action@v2
       with:
-        theme-folder: jsonresume-theme-xetamus 
+        theme-folder: theme
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
