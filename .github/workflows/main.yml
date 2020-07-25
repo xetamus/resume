@@ -29,7 +29,11 @@ jobs:
       uses: xetamus/hackmyresume-action@v2
       with:
         theme-folder: theme
-    
+
+    - name: Copy the image
+      run:  |
+        cp theme/shishir.png ./resume
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
