@@ -30,7 +30,7 @@
       "company": "VMware (formerly Pivotal)",
       "position": "Senior Solutions Architect",
       "startDate": "Jan 2017",
-      "highlights": {
+      "highlights": [
         "Led technical implementation & operations of large-scale validation lab.",
         "Automated deployment & validation of a wide product mix in complex customer focused topologies including all layers from physical to containers.",
         "Led initiative around process and technical improvements on a widely-used internal product.",
