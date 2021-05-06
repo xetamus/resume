@@ -35,7 +35,8 @@
         "Automated deployment & validation of a wide product mix in complex customer focused topologies including all layers from physical to containers.",
         "Led initiative around process and technical improvements on a widely-used internal product.",
         "Technical enablement with customers to teach them to fully deploy, automate, manage and operate their PaaS environments.",
-        "Performed troubleshooting of complex issues that arose with Cloud Foundry and Kubernetes platforms."
+        "Performed troubleshooting of complex issues that arose with Cloud Foundry and Kubernetes platforms.",
+        "Provided early experience & bug reports to product development teams through direct customer feedback."
       ]
     },
     {
@@ -100,6 +101,10 @@
   "skills": [{
     "name": "Dev",
     "keywords": [
+      "kubernetes",
+      "Tanzu",
+      "helm",
+      "carvel",
       "Pivotal Cloud Foundry",
       "bosh",
       "concourse",
