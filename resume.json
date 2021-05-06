@@ -6,7 +6,7 @@
     "email": "shishamin@gmail.com",
     "phone": "(919) 889 6225",
     "website": "http://shishiramin.com",
-    "summary": "Pragmatist. DevOps, automation and CICD enthusiast. Lifelong learner and personable team player. Flexible and always willing to dig in and solve new problems.",
+    "summary": "Pragmatist. DevOps, automation and CICD enthusiast. Post sales consultant. Lifelong learner and personable team player. Flexible and always willing to dig in and solve new problems.",
     "location": {
       "city": "RTP",
       "countryCode": "US",
@@ -27,38 +27,27 @@
   },
   "work": [
     {
-      "company": "VMware",
+      "company": "VMware (formerly Pivotal)",
       "position": "Senior Solutions Architect",
-      "startDate": "Jan 2020",
-      "highlights": []
-    },
-    {
-      "company": "Pivotal",
-      "position": "Senior Solutions Architect/Platform Reliability Engineer",
       "startDate": "Jan 2017",
-      "highlights": [
-        "Help customers learn to run and operate their Pivotal Cloud Foundry(PCF) environments",
-        "Troubleshoot networking,IaaS,platform,etc.. issues that arise during installation/operation of PCF",
-        "Deploy PCF both manually and through automated concourse pipelines",
-        "Create and alter concourse pipelines to eliminate operator toil for PCF"
+      "highlights": {
+        "Led technical implementation & operations of large-scale validation lab.",
+        "Automated deployment & validation of a wide product mix in complex customer focused topologies including all layers from physical to containers.",
+        "Led initiative around process and technical improvements on a widely-used internal product.",
+        "Technical enablement with customers to teach them to fully deploy, automate, manage and operate their PaaS environments.",
+        "Performed troubleshooting of complex issues that arose with Cloud Foundry and Kubernetes platforms."
       ]
     },
     {
-      "company": "EMC Cloud Services (now Virtustream)",
+      "company": "Virtustream (formerly EMC Cloud Services)",
       "position": "Senior Software Engineer",
       "startDate": "Apr 2015",
       "endDate": "Nov 2016",
       "highlights": [
-        "Deployed, configued and supported OpenStack clouds as well as mission critical organizational shared services including package repositories and CICD software",
-        "Set up Rally (OpenStack) to collect benchmarks and run tests against deployed clouds to help identify and fix performance issues and bugs",
-        "Created Salt formulas to keep server configurations consistent and more easily manage infrastructure",
-        "Wrote Salt modules where necessary to extend SaltStack functionality for cloud platforms",
-        "Used openstack-ansible to deploy and re-deploy OpenStack clouds",
-        "Used ansible to deploy and maintain cloud and customer tenant information as code",
-        "Managed CICD infrastructure (TeamCity) and evangalized best practices ",
-        "Assisted other developers with CICD pipelines and shared services when the need arose",
-        "Worked on-call rotations to quickly handle both production and development issues",
-        "Created documenation for on-call remediations, which allowed others on-call to easily resolve issues more quickly, leading to less downtime of our services"
+        "Managed Openstack and Mesos using Salt and Ansible.",
+        "Managed CICD infrastructure (TeamCity) and evangalized best practices.",
+        "Deployed, configued and supported internal cloud platforms and mission critical shared services.",
+        "Used automation to collect benchmarks and run tests against deployed clouds to help identify and fix performance issues and bugs."
       ]
     },
     {
@@ -67,13 +56,8 @@
       "startDate": "Sep 2014",
       "endDate": "Apr 2015",
       "highlights": [
-        "Added features to improve customer experience and increased stability through bug fix for an internal Java shared hosting platform.",
-        "Worked on an internal shared hosting service written in Perl",
-        "Delivered enhancements, fixed bugs and refactored legacy code",
-        "Agile software development using JIRA as a project management tool and SVN as version control",
-        "Focused heavily on increasing unit testing coverage",
-        "Provided escalation support for issues running in production",
-        "Cross-team collaboration with other shared services, customers of the product and other development groups within the bank"
+        "Added features to improve customer experience and increased stability through bug fix for an internal Java PaaS.",
+        "Cross-team collaboration with other shared services, customers of the product and other development groups within the bank."
       ]
     },
     {
@@ -82,11 +66,8 @@
       "startDate": "Jan 2012",
       "endDate": "Sep 2014",
       "highlights": [
-        "Developed virtual hardware environments (as VMWare VMs) of EMC Midrange storage platforms which helped reduce hardware costs for development.",
-        "Performed development and system administration roles",
-        "Created automated tooling around virtual machine deployment and configuration (using VMWare Perl APIs)",
-        "Cross-collaborated across development teams as multiple components of the stack had to be sometimes be altered for the virtual environments",
-        "Wrote C/C++ code as well as Bash and Perl scripts"
+        "Developed virtual hardware environments of EMC Midrange storage platforms which helped reduce hardware costs for development.",
+        "Automated deployment and configuration of virtual hardware environments on vCenter."
       ]
     },
     {
@@ -95,11 +76,8 @@
       "startDate": "May 2009",
       "endDate": "Jan 2012",
       "highlights": [
-        "Assisted with the Midrange NAS development team with their responsibilities and helped to manage our lab hardware.",
-        "Helped test developer code by installing builds and running test suites",
-        "Helped to debug issues with broken systems, or reinstall them if necessary",
-        "Got my feet wet fixing some simple bugs in the software",
-        "Revamped our lab hardware tracking website"
+        "Assisted the Midrange NAS development team with their development responsibilities.",
+        "Managed lab hardware and developed/maintained the lab hardware tracking software."
       ]
     }
   ],
